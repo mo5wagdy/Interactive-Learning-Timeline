@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Learning Timeline</title>
+  <link rel="stylesheet" href="CSS.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+
+<body>
+<!-- Header Section -->
+  <header>
+    <h1>Interactive Learning Timeline</h1>
+    <nav>
+
+      <ul class="nav-links" id="navlinks">
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#quiz-section">Quiz</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <input type="text" id="search" placeholder="Search events..." oninput="filterEvents()" />
+        </li>
+        <li><button onclick="scrollToTop()">Back to Top</button></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger" onclick="togglemenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+<!-- Main Content -->
+  <main>
+  <!-- Timeline Container -->
+    <section id="timeline">
+      <h2>Timeline</h2>
+      <div class="timeline-container">
+        <!-- Event 1 -->
+        <div class="timeline-event" data-year="1969">
+          <div class="event-date">1969</div>
+          <div class="event-content">
+            <h3>Moon Landing</h3>
+            <p>NASA's Apollo 11 mission successfully landed humans on the Moon for the first time.</p>
+            <img src="moon landing.webp" alt="Moon Landing" class="event-image" />
+            <a href="https://www.nasa.gov" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <!-- Event 2 -->
+        <div class="timeline-event" data-year="1990">
+          <div class="event-date">1990</div>
+          <div class="event-content">
+            <h3>Hubble Space Telescope</h3>
+            <p>The Hubble Space Telescope was launched, transforming our understanding of the universe.</p>
+            <img src="Hubble tele.jpeg" alt="Hubble Space Telescope" class="event-image" />
+            <a href="https://en.wikipedia.org/wiki/Hubble_Space_Telescope" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <!-- Event 3 -->
+        <div class="timeline-event" data-year="2004">
+          <div class="event-date">2004</div>
+          <div class="event-content">
+            <h3>Facebook Launch</h3>
+            <p>Mark Zuckerberg launched Facebook, revolutionizing social media and online communication.</p>
+            <img src="facebook.jpg" alt="Facebook Launch" class="event-image" />
+            <a href="https://en.wikipedia.org/wiki/Facebook" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <!-- Event 4 -->
+        <div class="timeline-event" data-year="2010">
+          <div class="event-date">2010</div>
+          <div class="event-content">
+            <h3>iPad Introduction</h3>
+            <p>Apple unveiled the first iPad, creating a new category of personal devices.</p>
+            <img src="ipad.jpg" alt="iPad Launch" class="event-image" />
+            <a href="https://en.wikipedia.org/wiki/IPad" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <!-- Event 5 -->
+        <div class="timeline-event" data-year="2020">
+          <div class="event-date">2020</div>
+          <div class="event-content">
+            <h3>COVID-19 Pandemic</h3>
+            <p>The COVID-19 pandemic reshaped the world, with significant advancements in medical technology.</p>
+            <img src="covid 19.jpg" alt="COVID-19 Pandemic" class="event-image" />
+            <a href="https://www.who.int/health-topics/coronavirus#tab=tab_1" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <!-- Event 6 -->
+        <div class="timeline-event" data-year="2020">
+          <div class="event-date">1503</div>
+          <div class="event-content">
+            <h3>The Mona Lisa Paintiing</h3>
+            <p>Half-leanth portrait painting by italian artist Leonardo da Vinci .</p>
+            <img src="Mona Liza.jpg " alt="The Mona Lisa" class="event-image" />
+            <a href="https://www.britannica.com/topic/Mona-Lisa-painting" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Image Gallery Section -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-container">
+        <img src="moon landing 1.jpg" alt="Moon Landing" onclick="viewImage(this)" />
+        <img src="Moon landing 2.jpg" alt="Moon Landing" onclick="viewImage(this)" />
+        <img src="Hubble 1.jpg" alt="Hubble Telescope" onclick="viewImage(this)" />
+        <img src="Hubble 2.jpg" alt="Hubble Telescope" onclick="viewImage(this)" />
+        <img src="facebook 1.jpg" alt="Facebook Launch" onclick="viewImage(this)" />
+        <img src="facebook 2.jpg" alt="Facebook Launch" onclick="viewImage(this)" />
+        <img src="ipad 1.jpg" alt="iPad Launch" onclick="viewImage(this)" />
+        <img src="ipad 2.jpg" alt="iPad Launch" onclick="viewImage(this)" />
+        <img src="covid 1.jpg" alt="COVID-19 Pandemic" onclick="viewImage(this)" />
+        <img src="covid 2.jpg" alt="COVID-19 Pandemic" onclick="viewImage(this)" />
+        <img src="moon landing 1.jpg" alt="Mona Lisa painting" onclick="viewImage(this)" />
+        <img src="Moon landing 2.jpg" alt="Mona Lisa painting" onclick="viewImage(this)" />
+      </div>
+    </section>
+
+  <!-- Quiz Section -->
+    <section id="quiz-section">
+      <h2>Test Your Knowledge</h2>
+      <div id="quiz-cards">
+        <!-- Quiz 1 -->
+      <div class="quiz-card">
+        <h3>Moon Landing</h3>
+          <p class="moon" >What year did Apollo 11 land on the moon? <br> &#160 </p>
+            <br><label for="quiz section" id="lable">Type Your Answer</label>
+            <br><input type="text" id="Answer" name="Answer" placeholder="Your Answer" required oninput="CheckAnswer()"/>
+            <br><button class="button" ondblclick="ShowResult()">Check Answer</button>
+      </div>
+        <!-- Quiz 2 -->
+      <div class="quiz-card">
+        <h3>Hubble Telescope</h3>
+          <p>Which telescope transformed our view of the universe?</p>
+            <br><label for="quiz section" id="lable">Type Your Answer</label>
+            <br><input type="text" id="Answer" name="Answer" placeholder="Your Answer" required oninput="CheckAnswer()"/>
+            <br><button class="button" ondblclick="ShowResult()">Check Answer</button>
+      </div>
+        <!-- Quiz 3 -->
+      <div class="quiz-card">
+        <h3>COVID-19</h3>
+          <p>What significant technological advancements occurred during the pandemic?</p>
+            <br><label for="quiz section" id="lable">Type Your Answer</label>
+            <br><input type="text" id="Answer" name="Answer" placeholder="Your Answer" required oninput="CheckAnswer()"/>
+            <br><button class="button" ondblclick="ShowResult()">Check Answer</button>
+      </div>
+      </div>
+    </section>
+
+  <!-- About Section -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Discover the milestones that shaped our world. This timeline showcases historic events 
+        with detailed descriptions, images, and interactive features to make learning enjoyable.
+      </p>
+      <div id="about-cards">
+        <div class="about-card">
+          <h3>Interactive Design</h3>
+          <p>Our timeline uses engaging visuals and responsive layouts for a seamless experience on any device.</p>
+        </div>
+        <div class="about-card">
+          <h3>Comprehensive Learning</h3>
+          <p>Explore detailed content, including images, quizzes, and descriptions, to understand each event.</p>
+        </div>
+        <div class="about-card">
+          <h3>Stay Inspired</h3>
+          <p>Relive moments that changed the world and inspire innovation and creativity for the future.</p>
+        </div>
+      </div>
+    </section>
+
+  <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form" onsubmit="submitContactForm(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+<!-- Footer Section -->
+    <footer>
+      <p>© 2024-2025 Muhammed Wagdy | All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      </div>
+    </footer>
+
+  <script src="JS.js"></script>
+</body>
+</html>
