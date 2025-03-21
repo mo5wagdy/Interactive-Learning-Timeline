@@ -18,7 +18,7 @@ Interactive-Learning-Timeline/
 ```
 
 ## 🌍 Live Demo
-[Click here to view the live demo](https://mo5wagdy.github.io/Interactive-Learning-Timeline/)
+[Click here to view the live demo](https://mo5wagdy.github.io/Interactive-Learning-Timeline/index.html)
 
 ## 🛠 Technologies Used
 - **HTML5** - Structure and layout
