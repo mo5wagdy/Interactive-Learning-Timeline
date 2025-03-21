@@ -12,11 +12,9 @@ The **Interactive Learning Timeline** is a dynamic and user-friendly web applica
 ## 📂 Project Structure
 ```
 Interactive-Learning-Timeline/
-│── assets/           # Images, icons, and other media files
-│── css/              # Stylesheets for the project
-│── js/               # JavaScript files for interactivity
-│── index.html        # Main entry point
-│── README.md         # Project documentation
+│── Assets/           # Images, icons, and other media files
+│── DOCS/             # Project documentation (README.md, .Ignore)
+│── SRC/              # Main entry point, Stylesheets for the project, JavaScript files for interactivity
 ```
 
 ## 🌍 Live Demo
