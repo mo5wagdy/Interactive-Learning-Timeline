@@ -1,0 +1,15 @@
+# ملفات نظامية
+.DS_Store
+Thumbs.db
+
+# ملفات Node.js لو استخدمته
+node_modules/
+package-lock.json
+
+# ملفات التصفح
+*.log
+*.cache
+*.tmp
+
+# ملفات الـ IDE
+.vscode/
