@@ -26,13 +26,19 @@ Interactive-Learning-Timeline/
 - **CSS3** - Styling and animations
 - **JavaScript** - Interactive elements
 
-## 📸 Preview
+## 🖼️ Screenshots
 
-| Screen | Description |
-|--------|-------------|
-| ![Home](Repo%20Screens/Screenshot%202025-07-13%20203536.png) | 🏠 **Main Timeline View** - Shows the interactive learning path |
-| ![Progress](Repo%20Screens/screenshot2.png) | 📈 **Progress Tracking** - Highlights completed and pending topics |
-| ![Responsive](Repo%20Screens/screenshot3.png) | 📱 **Responsive Design** - Mobile and tablet friendly layout |
+<p align="center">
+  <img src="Repo Screens/Screenshot 2025-07-13 205516.png" alt="" width="70%" />
+  <br>
+  <img src="Repo Screens/Screenshot 2025-07-13 205528.png" alt="" width="70%" />
+  <br>
+  <img src="Repo Screens/Screenshot 2025-07-13 205544.png" alt="" width="70%" />
+  <br>
+  <img src="Repo Screens/Screenshot 2025-07-13 205601.png" alt="" width="70%" />
+  <br>
+  <img src="Repo Screens/Screenshot 2025-07-13 205623.png" alt="" width="40%" />
+</p>
 
 
 ## 📥 Installation
