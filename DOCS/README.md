@@ -13,12 +13,13 @@ The **Interactive Learning Timeline** is a dynamic and user-friendly web applica
 ```
 Interactive-Learning-Timeline/
 │── Assets/           # Images, icons, and other media files
+│── Repo Screens/     # Screenshots for README and documentation
 │── DOCS/             # Project documentation (README.md, .Ignore)
 │── SRC/              # Main entry point, Stylesheets for the project, JavaScript files for interactivity
 ```
 
 ## 🌍 Live Demo
-[Click here to view the live demo](https://mo5wagdy.github.io/Interactive-Learning-Timeline/index.html)
+🔗 [Click here to view the live demo](https://mo5wagdy.github.io/Interactive-Learning-Timeline/index.html)
 
 ## 🛠 Technologies Used
 - **HTML5** - Structure and layout
@@ -26,7 +27,14 @@ Interactive-Learning-Timeline/
 - **JavaScript** - Interactive elements
 
 ## 📸 Preview
-![Project Screenshot](assets/screenshot.png)
+
+| Screen | Description |
+|--------|-------------|
+| ![Home](Repo%20Screens/screenshot1.png) | 🏠 **Main Timeline View** - Shows the interactive learning path |
+| ![Progress](Repo%20Screens/screenshot2.png) | 📈 **Progress Tracking** - Highlights completed and pending topics |
+| ![Responsive](Repo%20Screens/screenshot3.png) | 📱 **Responsive Design** - Mobile and tablet friendly layout |
+
+> 📌 **Note:** If images don’t load, make sure the folder is named exactly `Repo Screens` and the image files are committed.
 
 ## 📥 Installation
 To run the project locally:
@@ -38,10 +46,10 @@ To run the project locally:
    ```sh
    cd Interactive-Learning-Timeline
    ```
-3. Open `index.html` in a browser.
+3. Open `index.html` in your preferred browser.
 
-## 📌 How to Contribute
-Contributions are welcome! If you’d like to enhance the project:
+## 🤝 How to Contribute
+Contributions are welcome! If you'd like to enhance the project:
 1. Fork the repository.
 2. Create a new branch (`feature-new-improvement`).
 3. Commit your changes and push them.
@@ -53,6 +61,9 @@ This project is open-source and available under the **MIT License**.
 ## 📬 Contact
 For any questions or suggestions, feel free to reach out:
 - GitHub: [@mo5wagdy](https://github.com/mo5wagdy)
-- Email: [Muhammed Wagdy](mohamed5wagdy@gmail.com)
+- Email: [mohamed5wagdy@gmail.com](mailto:mohamed5wagdy@gmail.com)
 
-Enjoy exploring **Interactive Learning Timeline**! 🚀
+---
+
+🎉 Enjoy exploring **Interactive Learning Timeline**!  
+Feel free to ⭐ the repo if you like it.
