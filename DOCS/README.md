@@ -30,11 +30,10 @@ Interactive-Learning-Timeline/
 
 | Screen | Description |
 |--------|-------------|
-| ![Home](Repo%20Screens/screenshot1.png) | 🏠 **Main Timeline View** - Shows the interactive learning path |
+| ![Home](Repo%20Screens/Screenshot%202025-07-13%20203536.png) | 🏠 **Main Timeline View** - Shows the interactive learning path |
 | ![Progress](Repo%20Screens/screenshot2.png) | 📈 **Progress Tracking** - Highlights completed and pending topics |
 | ![Responsive](Repo%20Screens/screenshot3.png) | 📱 **Responsive Design** - Mobile and tablet friendly layout |
 
-> 📌 **Note:** If images don’t load, make sure the folder is named exactly `Repo Screens` and the image files are committed.
 
 ## 📥 Installation
 To run the project locally:
