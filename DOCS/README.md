@@ -29,17 +29,21 @@ Interactive-Learning-Timeline/
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="Repo Screens/Screenshot 2025-07-13 203536.png" alt="" width="70%" />
-  <br>
-  <img src="Repo Screens/Screenshot 2025-07-13 203549.png" alt="" width="70%" />
-  <br>
-  <img src="Repo Screens/Screenshot 2025-07-13 203606.png" alt="" width="70%" />
-  <br>
-  <img src="Repo Screens/Screenshot 2025-07-13 203624.png" alt="" width="70%" />
-  <br>
-  <img src="Repo Screens/Screenshot 2025-07-13 203635.png" alt="" width="40%" />
+  <b>1. Main Timeline View</b><br>
+  <img src="Repo Screens/Screenshot 2025-07-13 203536.png" alt="Main Timeline View" width="70%" />
+  <br><br>
+  <b>2. Progress Tracking Highlight</b><br>
+  <img src="Repo Screens/Screenshot 2025-07-13 203549.png" alt="Progress Tracking Highlight" width="70%" />
+  <br><br>
+  <b>3. Responsive Layout Example</b><br>
+  <img src="Repo Screens/Screenshot 2025-07-13 203606.png" alt="Responsive Layout Example" width="70%" />
+  <br><br>
+  <b>4. Animated Transition</b><br>
+  <img src="Repo Screens/Screenshot 2025-07-13 203624.png" alt="Animated Transition" width="70%" />
+  <br><br>
+  <b>5. Mobile View</b><br>
+  <img src="Repo Screens/Screenshot 2025-07-13 203635.png" alt="Mobile View" width="40%" />
 </p>
-
 
 ## 📥 Installation
 To run the project locally:
