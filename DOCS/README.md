@@ -29,15 +29,15 @@ Interactive-Learning-Timeline/
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="Repo Screens/Screenshot 2025-07-13 205516.png" alt="" width="70%" />
+  <img src="Repo Screens/Screenshot 2025-07-13 203536.png" alt="" width="70%" />
   <br>
-  <img src="Repo Screens/Screenshot 2025-07-13 205528.png" alt="" width="70%" />
+  <img src="Repo Screens/Screenshot 2025-07-13 203549.png" alt="" width="70%" />
   <br>
-  <img src="Repo Screens/Screenshot 2025-07-13 205544.png" alt="" width="70%" />
+  <img src="Repo Screens/Screenshot 2025-07-13 203606.png" alt="" width="70%" />
   <br>
-  <img src="Repo Screens/Screenshot 2025-07-13 205601.png" alt="" width="70%" />
+  <img src="Repo Screens/Screenshot 2025-07-13 203624.png" alt="" width="70%" />
   <br>
-  <img src="Repo Screens/Screenshot 2025-07-13 205623.png" alt="" width="40%" />
+  <img src="Repo Screens/Screenshot 2025-07-13 203635.png" alt="" width="40%" />
 </p>
 
 
